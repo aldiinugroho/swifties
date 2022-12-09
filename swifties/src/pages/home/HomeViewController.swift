@@ -36,7 +36,7 @@ class HomeViewController: UIViewController {
     
     let imageview: UIImageView = {
         let iv = UIImageView()
-        iv.image = UIImage(named: "testimage2")
+        iv.image = UIImage(named: "taylor")
         iv.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width).isActive = true
         iv.heightAnchor.constraint(equalToConstant: 240).isActive = true
         iv.contentMode = .scaleToFill
